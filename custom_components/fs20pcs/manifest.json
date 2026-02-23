@@ -1,0 +1,13 @@
+{
+  "domain": "fs20pcs",
+  "name": "FS20 PCS Sender",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/mtnbin/fs20pcs",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/mtnbin/fs20pcs/issues",
+  "integration_type": "device",
+  "requirements": ["hidapi"],
+  "version": "1.0.0"
+}

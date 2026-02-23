@@ -1,0 +1,35 @@
+send:
+  name: FS20 Befehl senden
+  description: Sendet einen Befehl über den FS20 PCS USB Sender.
+  fields:
+    address:
+      name: Adresse
+      description: >
+        FS20-Geräteadresse im Format 1–4, z. B. "1213".
+        Muss genau 4 Stellen enthalten. Wird von der Integration in ein FS20-Adressbyte umgerechnet.
+      required: true
+      example: "1213"
+    command:
+      name: Kommando
+      description: >
+        FS20-Befehl
+        Beispiele: Licht aus = 0, Licht ein = 25, Toggle = 18, Rollladen runter = 0, rauf = 25.
+      required: true
+      selector:
+        number:
+          min: 0
+          max: 63
+          mode: box
+      example: 25
+    ext:
+      name: Ext-Wert
+      description: >
+        Erweiterter FS20-Wert (Standard: 0). Wird selten benötigt.
+      required: false
+      default: 0
+      selector:
+        number:
+          min: 0
+          max: 255
+          mode: box
+      example: 0

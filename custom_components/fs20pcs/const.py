@@ -1,0 +1,8 @@
+
+DOMAIN = "fs20pcs"
+
+CONF_HOUSECODE = "housecode"
+CONF_ADDRESS = "address"
+
+USB_VENDOR = 0x18EF
+USB_PRODUCT = 0xE015
