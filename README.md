@@ -37,6 +37,6 @@ The fs20pcs integration provides a service called fs20pcs.send. This service all
       service: fs20pcs.send
       data:
         address: "1214"
-        command: 25
+        command: 16
     icon: mdi:lightbulb-on-outline
     ```
