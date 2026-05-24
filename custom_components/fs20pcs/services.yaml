@@ -13,7 +13,7 @@ send:
       name: Kommando
       description: >
         FS20-Befehl
-        Beispiele: Licht aus = 0, Licht ein = 25, Toggle = 18, Rollladen runter = 0, rauf = 25.
+        Beispiele: Licht aus = 0, Licht ein = 16, Toggle = 18, Rollladen runter = 0, rauf = 25.
       required: true
       selector:
         number:
